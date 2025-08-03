@@ -1,0 +1,252 @@
+/* 
+===============================================================================================
+ 
+	Full Stack Web Developer
+	Sec.5 Intro to CSS
+	styles.css
+	03/08/2025
+ 
+===============================================================================================
+*/
+
+
+body
+{
+	background-color: #eeeeee;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	color: #111111;
+	font-family: calibri;
+	text-align: left;
+}
+
+p
+{
+	color: #111111;
+	font-family: calibri;
+	font-size: 16px;
+	text-align: justify;
+}
+
+a:link, a:visited, a:active
+{
+    background-color: #eeeeee;
+    color: #111111;
+    text-decoration: none;
+    padding: 14px 25px;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+}
+
+a:hover.menu
+{
+    background-color: #111111;
+    color: #eeeeee;
+    /* text-decoration: underline; */
+    padding: 14px 25px;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    cursor: default; /* crosshair, default, move, pointer, progress, wait */
+}
+
+a:hover.certs
+{
+    background-color: #0000ff;
+    color: #eeeeee;
+    /* text-decoration: underline; */
+    padding: 14px 25px;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    cursor: wait; /* crosshair, default, move, pointer, progress, wait */
+}
+
+a:hover.book
+{
+    background-color: #007700;
+    color: #eeeeee;
+    /* text-decoration: underline; */
+    padding: 14px 25px;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer; /* crosshair, default, move, pointer, progress, wait */
+}
+
+
+
+/* 
+===============================================================================================
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+}
+
+#header
+{
+	width: 1000px;
+	height: 364px;
+}
+
+#header_main
+{
+	width: 1000px;
+	height: 50px;
+	background-color: #000000;
+	border-radius: 10px;
+}
+
+#header_date
+{
+	width: 340px;
+	height: 20px;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 14px;
+	float: left;
+	margin-top: 27px;
+	margin-bottom: 3px;
+	margin-left: 10px;
+}
+
+#header_title
+{
+	width: 300px;
+	height: 50px;
+	float: left;
+	/*background-image: url(../images/RobWilson.EU.gif);* /
+}
+
+#header_language
+{
+	width: 125px;
+	height: 19px;
+	float: right;
+	margin-top: 25px;
+	margin-bottom: 6px;
+	margin-right: 6px;
+}
+
+.languages
+{
+	width: 19px;
+	height: 19px;
+	float: left;
+	margin-left: 6px;
+}
+
+.flags
+{
+	border: 0px;
+	width: 15px; 
+	height: 15px;
+}
+
+.flags:hover
+{
+	border: 2px #ffffff solid;
+	width: 15px;
+	height: 15px;
+}
+
+#header_image
+{
+	width: 1000px;
+	height: 260px;
+	border-radius: 10px;
+	clear: both;
+	background-image: url(../images/greater_dublin.jpg);
+	margin-top: 2px;
+}
+
+#nav_bar
+{
+	width: 1000px;
+	height: 50px;
+	clear: both;
+	background-color: #000000;
+	border-radius: 10px;
+	margin-top: 2px;
+}
+
+.nav_select
+{
+	width: 100px;
+	height: 37px;
+	margin-left: 20px;
+	font-family: calibri;
+	font-size: 20px;
+	text-align: center;
+	color: #ffffff;
+	padding: 13px 0 0 0;
+	float: left;
+}
+
+.nav_select:hover
+{
+	background-color: #ffffff;
+	color: #000000;
+	font-weight: bold;
+}
+
+#menu
+{
+	width: 195px;
+	height: 500px;
+	float: left;
+	background-color: #ffffff;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#content
+{
+	width: 795px;
+	height: 500px;
+	float: right;
+	background-color: #ffffff;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#text_wrap
+{
+	width: auto;
+	height: auto;
+	padding: 10px;
+	/*margin-top: 20px;* /
+	margin-left: 30px;
+	margin-right: 30px;
+	/*border: 1px solid #000000;* /
+}
+
+#footer
+{
+	width: 1000px;
+	height: 50px;
+	clear: both;
+	background-color: #000000;
+	border-radius: 10px;
+}
+
+#footer_align
+{
+	width: 100px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+===============================================================================================
+*/
