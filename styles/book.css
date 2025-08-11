@@ -1,0 +1,41 @@
+/* 
+===============================================================================================
+ 
+	Full Stack Web Developer
+	Book Styles
+	book.css
+	11/08/2025
+ 
+===============================================================================================
+*/
+
+#book
+{
+    text-align: center;
+}
+
+a:link#book, a:visited#book, a:active#book
+{
+    background-color: #eeeeee;
+    color: #111111;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 25px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+}
+
+a:hover#book
+{
+    background-color: #007700;
+    color: #eeeeee;
+    padding: 14px 25px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    cursor: default;
+}
