@@ -9,13 +9,13 @@
 ===============================================================================================
 */
 
-#aws, #azure, #google, #github, #linkedin
+#aws, #azure, #oracle, #google, #github, #linkedin
 {
     height: auto;
     width: auto;
     /*padding: ;*/
     /*border: 1px solid #000000;*/
-    margin: 5px 5px;
+    margin: 15px 5px; /* top-bottom, left-right */
 }
 
 a.cloud
